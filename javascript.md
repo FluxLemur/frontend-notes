@@ -201,3 +201,15 @@ statements }
 // Destructuring within the parameter list is also supported
 var f = ([a, b] = [1, 2], {x: c} = {x: a + b}) => a + b + c; f(); // 6
 ```
+
+## [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+- Functions are "hoisted" to the top of the scope they're defined in.
+- (i.e. you can use a function and then define it in the next line)
+- Functions are hoisted, `var` is hoisted
+- Class declarations are *not* hoisted.
+
+## [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+- e.g. Python format strings
+```
+`Value is ${5 + 1}`
+```
