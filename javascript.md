@@ -20,6 +20,8 @@
 
 ## Variables
 - `let` and `const` are block-scope
+- `const` does not mean immutable! Just that the variable cannot be re-assigned.
+  (Unlike C++)
 - `var` is function scope (even if you declare in the middle!)
 
 `var` example:
