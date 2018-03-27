@@ -53,7 +53,7 @@
 
 ## Control Structure
 - if, else if, else, while, do while same as C
-- `for (const value of array) { ... }
+- `for (const value of array) { ... }`
 - `for (const property in object) { ... }`
 
 ## Arrays
